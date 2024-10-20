@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".hostelManagementSystem.MainActivity">
+
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:text="Add Student"
+        android:id="@+id/addStudent"
+        android:onClick="addStudent"
+        android:layout_weight="1"
+        android:background="#FFC107"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mess Entry"
+        android:id="@+id/MessEntry"
+        android:onClick="MessEntry"
+        android:layout_weight="1"
+        android:background="#2CB6F4"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Allocation"
+        android:id="@+id/roomAlocation"
+        android:onClick="roomAlocation"
+        android:layout_weight="1"
+        android:background="#7EE308"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+
+</LinearLayout>
